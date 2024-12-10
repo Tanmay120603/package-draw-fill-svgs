@@ -33,7 +33,7 @@ The `DrawSvg` component animates the drawing (`stroke`) and filling (`fill`) of 
 ## 📦 Installation
 
 ```bash
-npm install draw-fill-svg
+npm install draw-fill-svgs
 ```
 
 ---
