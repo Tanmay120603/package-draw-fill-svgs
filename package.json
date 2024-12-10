@@ -1,0 +1,38 @@
+{
+    "name": "draw-fill-svgs",
+    "version": "1.0.4",
+    "type": "module",
+    "description": "A React component for animating the drawing and filling of SVG paths with customizable animations.",
+    "main": "dist/index.js",
+    "module": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "rollup": "rollup -c --bundleConfigAsCjs"
+    },
+    "keywords": [
+        "react",
+        "svg",
+        "animation",
+        "typescript",
+        "path",
+        "drawing",
+        "filling",
+        "customizable"
+    ],
+    "author": "Tanmay Bhansali",
+    "license": "ISC",
+    "readme": "README.md",
+    "devDependencies": {
+        "@rollup/plugin-commonjs": "^26.0.1",
+        "@rollup/plugin-node-resolve": "^15.2.3",
+        "@rollup/plugin-terser": "^0.4.4",
+        "@rollup/plugin-typescript": "^11.1.6",
+        "@types/react": "^18.3.3",
+        "react": "^18.3.1",
+        "rollup": "^4.18.1",
+        "rollup-plugin-dts": "^6.1.1",
+        "rollup-plugin-peer-deps-external": "^2.2.4",
+        "tslib": "^2.6.3",
+        "typescript": "^5.5.3"
+    }
+}
