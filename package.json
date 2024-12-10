@@ -22,6 +22,14 @@
     "author": "Tanmay Bhansali",
     "license": "ISC",
     "readme": "README.md",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/Tanmay120603/package-draw-fill-svgs.git"
+    },
+    "bugs": {
+    "url": "https://github.com/Tanmay120603/package-draw-fill-svgs/issues"
+    },
+    "homepage": "https://github.com/Tanmay120603/package-draw-fill-svgs#readme",
     "devDependencies": {
         "@rollup/plugin-commonjs": "^26.0.1",
         "@rollup/plugin-node-resolve": "^15.2.3",
