@@ -1,6 +1,6 @@
 {
     "name": "draw-fill-svgs",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "type": "module",
     "description": "A React component for animating the drawing and filling of SVG paths with customizable animations.",
     "main": "dist/index.js",
@@ -23,11 +23,11 @@
     "license": "ISC",
     "readme": "README.md",
     "repository": {
-    "type": "git",
-    "url": "https://github.com/Tanmay120603/package-draw-fill-svgs.git"
+        "type": "git",
+        "url": "https://github.com/Tanmay120603/package-draw-fill-svgs.git"
     },
     "bugs": {
-    "url": "https://github.com/Tanmay120603/package-draw-fill-svgs/issues"
+        "url": "https://github.com/Tanmay120603/package-draw-fill-svgs/issues"
     },
     "homepage": "https://github.com/Tanmay120603/package-draw-fill-svgs#readme",
     "devDependencies": {
