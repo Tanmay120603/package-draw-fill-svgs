@@ -44,7 +44,7 @@ npm install draw-fill-svgs
 
 ```jsx
 import React from "react";
-import DrawSvg from "draw-svg";
+import DrawSvg from "draw-fill-svgs";
 
 function App() {
   const drawStyle = {
@@ -119,7 +119,7 @@ Defines the animation properties for the fill (filling animation).
 
 ```jsx
 import React from "react";
-import DrawSvg from "draw-svg";
+import DrawSvg from "draw-fill-svgs";
 
 function ComplexSvg() {
   const drawStyle = {
