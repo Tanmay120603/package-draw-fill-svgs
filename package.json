@@ -4,10 +4,9 @@
     "type": "module",
     "description": "A React component for animating the drawing and filling of SVG paths with customizable animations.",
     "main": "dist/index.js",
-    "module": "dist/index.mjs",
     "types": "dist/index.d.ts",
     "scripts": {
-        "rollup": "rollup -c --bundleConfigAsCjs"
+        "build": "npx rollup -c"
     },
     "keywords": [
         "react",

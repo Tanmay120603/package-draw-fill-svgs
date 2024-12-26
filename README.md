@@ -89,6 +89,7 @@ Defines the animation properties for the stroke (drawing animation).
 | `delay`        | `string` | Delay before the stroke animation starts.         | `null`          |
 | `duration`     | `string` | Duration of the stroke animation.                 | `null`          |
 | `fillMode`     | `string` | CSS fill mode (`forwards`, `backwards`, etc.).     | `"forwards"`    |
+| `timingFunction`     | `string` | CSS timing function (`ease`, `linear`, etc.).     | `"ease"`    |
 
 ---
 
@@ -102,6 +103,8 @@ Defines the animation properties for the fill (filling animation).
 | `delay`        | `string` | Delay before the fill animation starts.           | `null`          |
 | `duration`     | `string` | Duration of the fill animation.                   | `null`          |
 | `fillMode`     | `string` | CSS fill mode (`forwards`, `backwards`, etc.).     | `"forwards"`    |
+| `timingFunction`     | `string` | CSS timing function (`ease`, `linear`, etc.).     | `"ease"`    |
+
 
 ---
 

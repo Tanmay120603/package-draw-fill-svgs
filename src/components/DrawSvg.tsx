@@ -1,4 +1,5 @@
-import { Children, JSX, ReactElement, useLayoutEffect,useRef,useState } from "react"
+import React from 'react';
+import { Children, JSX, ReactElement, useLayoutEffect,useRef,useState, } from "react"
 
 type fill = "none" | "forwards" | "backwards" | "both" | "initial" | "inherit" | "unset"
 
@@ -7,14 +8,16 @@ interface DrawStyle{
     strokeWidth:string,
     delay:string,
     duration:string,
-    fillMode?: fill
+    fillMode?: fill,
+    timingFunction?:string
 }
 
 interface FillStyle{
     fill:string,
     delay:string,
     duration:string,
-    fillMode?:fill
+    fillMode?:fill,
+    timingFunction?:string
 }
 
 function DrawSvg({children,drawStyle,fillStyle}:{drawStyle:DrawStyle,fillStyle:FillStyle,children:JSX.Element[] | JSX.Element}):JSX.Element{
@@ -59,7 +62,7 @@ function DrawSvg({children,drawStyle,fillStyle}:{drawStyle:DrawStyle,fillStyle:F
 
     const fillStyleProps={fill:"transparent"}  
     
-    const animation=`draw-path ${drawStyle.duration} ease ${drawStyle.delay} ${drawStyle.fillMode || "forwards"},fill-path ${fillStyle.duration} ease ${fillStyle.delay} ${fillStyle.fillMode || "forwards"}`    
+    const animation=`draw-path ${drawStyle.duration} ${drawStyle.timingFunction || "ease"} ${drawStyle.delay} ${drawStyle.fillMode || "forwards"},fill-path ${fillStyle.duration} ${fillStyle.timingFunction || "ease"} ${fillStyle.delay} ${fillStyle.fillMode || "forwards"}`    
     
     const pathProps:object[]=paths.map(path=>path.props as object)
     
